@@ -1,4 +1,4 @@
-FROM node:18.17.1@sha256:c85dc4392f44f5de1d0d72dd20a088a542734445f99bed7aa8ac895c706d370d as node
+FROM node:20.5.1@sha256:8d9887b3b05d2e65598a18616c37cfc271346d12248dfcbeadd7b7bf4da1e827 as node
 RUN something
 FROM python:3.9-slim
 RUN something else
